@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: Roboto;
-  background-color: hsl(220, 7%, 24%);
+  background-color: hsl(0, 0%, 0%);
 }
 
 a {
@@ -33,12 +33,39 @@ a:focus {
 
 main {
   color: white;
-  padding: 50px;
-  max-width: 1200px;
+  padding-bottom: 50px;
+  max-width: 100%;
   margin: auto;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.rakshit{
+  color: red;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.dark-mode .navbar {
+  background-color: #343a40;
+}
+
+.dark-mode .nav-link {
+  color: #fff;
+}
+
+.dark-mode .btn-outline-light {
+  color: #fff;
+  border-color: #fff;
 }
 
 header {
+  margin-top:20px;
+  padding-top:50px;
   margin-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr;
